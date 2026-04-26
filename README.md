@@ -1,32 +1,18 @@
-# E-commerce-Customer-Revenue-Analysis-project
+# E-Commerce Customer Analytics Dashboard
 
-## 📌 Problem Statement
-Analyze e-commerce transaction data to understand customer behavior, revenue trends, and key business drivers.
+## 📌 Project Overview
+Processed 500k+ rows of international e-commerce transaction data to build a strategic dashboard. The project focuses on revenue concentration, customer retention, and operational efficiency.
 
-## 🛠️ Tools Used
-- Power BI
-- Data Cleaning & Transformation
-- DAX (Data Analysis Expressions)
+## 🛠️ Tech Stack
+- **BI Tool:** Power BI (DAX, Power Query)
+- **Data Processing:** Python (Pandas)
+- **KPIs:** Revenue Growth, Retention Rate, Average Order Value (AOV)
 
-## 📊 Dashboard Features
-- Total Revenue, Orders, and Customers (KPI Cards)
-- Monthly Revenue Trend
-- Revenue by Country
-- Top Customers Analysis
-- Top Products Analysis
-- Customer Retention (Repeat Customers)
-- Interactive Filters (Slicers)
+## 🚀 Technical Highlights
+- **Data Integrity:** Used Python to handle complex data types and remove transaction outliers and returns (negative quantities).
+- **DAX Modeling:** Engineered measures for **Repeat Customer Percentage** (identified at ~65%) and YOY Growth.
+- **Customer Segmentation:** Mapped the top 10% of customers contributing to major revenue shares.
 
-
-## 📈 Key Insights
-- Revenue is highly concentrated among top customers
-- A few countries dominate overall sales
-- Customer retention significantly impacts revenue
-- Top products contribute major portion of sales
-- Returns and discounts affect profitability
-
-## 🚀 Conclusion
-This dashboard helps businesses make data-driven decisions regarding customer targeting, product strategy, and market expansion.
-
-## 🔗 Author
-Riddhi Rawal
+## 📊 Key Findings
+- **Retention:** Strong repeat customer base (~65%), indicating high brand loyalty.
+- **Seasonality:** Identified specific monthly spikes, providing a roadmap for inventory scaling.
