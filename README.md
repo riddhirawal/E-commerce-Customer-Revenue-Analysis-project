@@ -1,18 +1,19 @@
-# E-Commerce Customer Analytics Dashboard
+# E-Commerce Revenue & Behavior Analytics
 
-## 📌 Project Overview
-Processed 500k+ rows of international e-commerce transaction data to build a strategic dashboard. The project focuses on revenue concentration, customer retention, and operational efficiency.
+## 📌 Business Problem
+With over 500k global transactions, the business required a deep dive into customer loyalty and revenue concentration to optimize marketing spend and handle return logistics.
 
 ## 🛠️ Tech Stack
 - **BI Tool:** Power BI (DAX, Power Query)
 - **Data Processing:** Python (Pandas)
-- **KPIs:** Revenue Growth, Retention Rate, Average Order Value (AOV)
+- **Metrics:** Customer Lifetime Value, Repeat Purchase Rate, Revenue Concentration
 
-## 🚀 Technical Highlights
-- **Data Integrity:** Used Python to handle complex data types and remove transaction outliers and returns (negative quantities).
-- **DAX Modeling:** Engineered measures for **Repeat Customer Percentage** (identified at ~65%) and YOY Growth.
-- **Customer Segmentation:** Mapped the top 10% of customers contributing to major revenue shares.
+## 🚀 Key Technical Steps
+- **Data Engineering:** Used Python to handle type conversions and remove transaction outliers (negative quantities/returns).
+- **Advanced DAX:** Engineered custom measures to calculate the **Repeat Customer Percentage**.
+- **Contribution Analysis:** Segmented the customer base to identify top-tier revenue drivers.
 
-## 📊 Key Findings
-- **Retention:** Strong repeat customer base (~65%), indicating high brand loyalty.
-- **Seasonality:** Identified specific monthly spikes, providing a roadmap for inventory scaling.
+## 📊 Business Outcomes
+- **Retention:** Verified a **65.6% Repeat Customer Rate**, indicating high brand loyalty.
+- **Revenue Concentration:** Discovered that the **top 10% of customers** contribute a disproportionate share of total revenue.
+- **Operational Insight:** Quantified the financial impact of returns on the total bottom line.
